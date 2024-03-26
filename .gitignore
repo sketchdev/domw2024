@@ -6,5 +6,7 @@ node_modules
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+# Ignoring this to be able to provide this code base publicly to attendees of DOMW2024
+cdk.context.json
 
 sample/
