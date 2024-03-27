@@ -62,18 +62,6 @@
     "@aws-cdk/aws-codepipeline-actions:useNewDefaultBranchForCodeCommitSource": true,
     "@aws-cdk/aws-cloudwatch-actions:changeLambdaPermissionLogicalIdForLambdaAction": true,
     "@aws-cdk/aws-codepipeline:crossAccountKeysDefaultValueToFalse": true,
-    "@aws-cdk/aws-codepipeline:defaultPipelineTypeToV2": true,
-
-
-    "#################### CLIENT DETAILS ####################": "",
-    "sketch/clientName": "Sketch",
-    "sketch/platformName": "Domw2024",
-
-
-    "#################### VPC DETAILS ####################": "",
-    "sketch/vpc/octet2": "10",
-
-
-    "sketch/app/domainName": "domw2024.sketchdev.io"
+    "@aws-cdk/aws-codepipeline:defaultPipelineTypeToV2": true
   }
 }
