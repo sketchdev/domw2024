@@ -16,8 +16,6 @@ export class AspectDemoStack extends cdk.Stack {
 
     new Bucket(this, 'CustomDeveloperBucket', {
       bucketName: 'domw2024-dev-public-bucket',
-      // chapter3
-      // bucketName: `${(cdk.Stack.of(this) as MyOrgStack).deploymentVpc().vpcId}-bucket-stuff`,
       enforceSSL: true,
       publicReadAccess: true,
 
@@ -25,7 +23,7 @@ export class AspectDemoStack extends cdk.Stack {
       // encryptionKey: new Key(this, 'custom-bucket-encryption-key'),
     });
 
-    // chapter3
+    // chapter-advanced
     cdk.Aspects.of(this).add(new BucketEncryptionKeyAspect());
   }
 }
